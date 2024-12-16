@@ -1,5 +1,5 @@
 import sqlite3
-import os
+
 
 def connecting_with_database(filename: str):
     try:
@@ -64,7 +64,7 @@ def select_email(email: str):
         return result
 
 
-create_table()
-add_user('imanali', 'imanalitussip@gmail.com', 'qwerty123')
-user = select_id(1)
-print(user)
+# create_table()
+# add_user('imanali', 'imanalitussip@gmail.com', 'qwerty123')
+# user = select_id(1)
+# print(user)
